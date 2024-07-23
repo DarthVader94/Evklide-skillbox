@@ -1,0 +1,679 @@
+@media (max-width: 1500px) {
+    .footer__p-block {
+        margin: 0 0 0 50px;
+    }
+}
+
+@media (max-width: 1320px) {
+
+    .container {
+        max-width: 1024px;
+        padding: 0 50px 0 50px;
+    }
+
+    .header {
+        max-width: 1024px;
+        margin-bottom: 40px;
+    }
+
+    .header__container {
+        padding: 26px 0 22px 0;
+    }
+
+    .header__logo {  
+        margin-right: 105px;
+        max-width: 150px;
+    }
+
+    /*.nav {
+        column-gap: 78px;
+    }*/
+
+    .nav__list {
+        gap: 60px;
+        margin-right: 43px;
+    }
+
+    /* HERO */
+
+    .hero__container {
+        padding: 160px 77px;
+        background-image: url(../img/img_midea/balconies-1024.jpg);
+        background-size: cover;
+    }
+
+    .hero__title {
+        max-width: 770px;
+        font-size: 60px;
+        margin-bottom: 16px;
+    }
+
+    .hero__paragraph {
+        max-width: 660px;
+        font-size: 20px;
+        margin-bottom: 61px;
+    }
+
+    .hero__btn {
+        padding: 24px 34px;
+        font-size: 24px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding-top: 37px;
+        margin-bottom: 78px;
+    }
+
+    .about__paragraph {
+        max-width: 924px;
+        margin-bottom: 59px;
+    }
+
+    .about__card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left__card {
+        min-height: 640px;
+    }
+
+    
+    .right__content {
+        width: 100%;
+    }
+    
+    .right__paragraph {
+        max-width: 450px;
+        font-size: 16px;
+    }
+
+    .special {
+        padding: 65px 77px;
+    }
+
+    .special::before {
+        margin-right: 9px;
+    }
+
+    /* WORKING */
+
+    .working {
+        margin-bottom: 81px;
+    }
+
+    .working__title {
+        margin-bottom: 23px;
+    }
+
+    .working__wrapper {
+        gap: 50px;
+    }
+
+    .working__subtitle {
+        margin-bottom: 8px;
+    }
+
+    .working__paragraph {
+        margin-bottom: 23px;
+    }
+
+    .working__right-image1 {
+        width: 47%;
+        background-image: url(../img/img_midea/Rectangle\ 18.jpg);
+        background-size: contain;
+        background-position: right;
+    } 
+
+    /*--FRAME--*/
+
+    .faq {
+        margin-bottom: 79px;
+    }
+
+    .faq__content {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: stretch;
+    }
+
+    .faq__title {
+        margin-bottom: 5px;
+    }
+
+    .faq__card{
+        width: 100%;
+    }
+
+    .faq__paragraph {
+        max-width: 800px;
+    }
+
+    .block__span {
+        display: none;
+    }
+
+    /* FOOTER */
+
+    .footer__right {
+        width: 59%;
+    }
+
+    .form__btn {
+        margin-right: 13px;
+        padding: 19px 45px;
+    }
+
+    .footer__p-block {
+        display: none;
+    }
+}  
+
+@media (max-width: 988px) {
+    .container {
+        max-width: 768px;
+        padding: 0 50px 0 50px;
+    }
+
+    .header {
+        max-width: 768px;
+        margin-bottom: 34px;
+    }
+
+    .header__container {
+        padding: 18px 0 17px 0;
+    }
+
+    .header__logo {  
+        max-width: 110px;
+        margin-right: 50px;
+    }
+
+    .header__inner {
+        overflow: auto;
+    }
+
+    /* NAV */
+
+    .nav__list {
+        gap: 40px;
+    }
+
+    .nav__item {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    /* HERO */
+
+    .hero__container {
+        max-width: 668px;
+        padding: 160px 40px;
+        background-image: url(../img/img_midea/balconies-768.jpg);
+        background-size: cover;
+    }
+
+    .hero__title {
+        max-width: 588px;
+        font-weight: 800;
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+
+    .hero__paragraph {
+        max-width: 588px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 59px;
+    }
+
+    .hero__btn {
+        padding: 25px 39px;
+        font-size: 23px;
+    }
+
+    /* ABOUT */
+
+    .about__paragraph {
+        max-width: 668px;
+    }
+
+    .left__card {
+        min-height: 650px;
+        background-image: url(../img/img_midea/Rectangle\ 2.jpg);
+    }
+
+    .liner {
+        padding: 38px;
+    }
+
+    .left__paragraph {
+        max-width: 366px;
+    }
+    
+    .right__paragraph {
+        max-width: 450px;
+        font-size: 16px;
+    }
+
+    .special {
+        padding: 35px 40px;
+        
+    }
+
+    .special::before {
+        margin-right: 12px;
+        width: 20%;
+        min-height: 99px;
+        background-position: 0;
+    }
+
+    .right__title {
+        margin-bottom: 6px;
+    }
+
+     /* WORKING */
+
+     .working {
+        margin-bottom: 81px;
+    }
+
+    .working__title {
+        margin-bottom: 23px;
+    }
+
+    .working__wrapper {
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .working__subtitle {
+        margin-bottom: 7px;
+    }
+
+    .working__paragraph {
+        margin-bottom: 23px;
+        width: 100%;
+    }
+
+    .working__right-image1 {
+        width: 100%;
+        min-height: 284px;
+        background-image: url(../img/img_midea/notepad\ 768.jpg);
+        background-position: center;
+    } 
+
+    .working__btn {
+        margin-right: 26px;
+    }
+
+    /*--FRAME--*/
+
+    .faq {
+        margin-bottom: 80px;
+    }
+
+    .faq__card {
+        padding: 36px 40px;
+    }
+
+    .faq__paragraph {
+        max-width: 563px;
+    }
+
+    /* FOOTER */
+
+    .footer__content {
+        flex-direction: column-reverse;
+    }   
+
+    .footer-left {
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        margin-bottom: 13px;
+    }
+
+    .footer__list {
+        display: none;
+    }
+
+    .footer__right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .form__btn {
+        margin-right: 10px;
+        padding: 19px 45px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .container {
+        max-width: 320px;
+        padding: 0 15px 0 15px;
+    }
+
+    .header {
+        min-height: 132px;
+        margin-bottom: 20px;
+        border-radius: 0 0 16px 16px;
+    }
+
+    .header__container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 17px 0 30px 0;
+    }
+
+    .header__logo {  
+        margin-bottom: 20px;
+        max-width: 110px;
+        min-height: 35px;
+    }
+
+    .media__search {
+        display: block;
+    }
+
+    /* NAV */
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__list {
+        order: +1;
+        gap: 24px;
+    }
+
+    .search__btn {
+        display: none;
+    }
+
+    /*HERO*/
+
+
+    .hero__container {
+        max-width: 290px;
+        padding: 60px 21px;
+        text-align: center;
+        background-image: url(../img/img_midea/balconies-328.jpg);
+        background-size: cover;
+        border-radius: 16px;
+    }
+
+    .hero__title {
+        max-width: 247px;
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .hero__paragraph {
+        max-width: 247px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+
+    .hero__btn {
+        padding: 14px 28.4px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding-top: 59px;
+        margin-bottom: 61px;
+    }
+
+    .about__heding {
+        font-size: 24px;
+    }
+
+    .about__paragraph {
+        max-width: 290px;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 14px;
+    }
+
+    .about__card {
+        gap: 8px;
+    }
+
+    .left__card {
+        width: 100%;
+        min-height: 200px;
+        border-radius: 16px;
+        background-image: url(../img/img_midea/Rectangle\ 320.jpg);
+    }
+
+    .liner {
+        display: none;
+    }
+
+    .media__liner{
+        display: block;
+        color: black;
+    }
+
+    .left__paragraph {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: black;
+        max-width: 366px;
+        margin-bottom: 12px;
+    }
+
+    .card__btn {
+        padding: 10.31px 42px;
+        margin-bottom: 25px;
+        border: 2px solid var(--orange-default);
+        border-radius: 8px;
+        color: var(--orange-default);
+        font-weight: 700;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .right__title {
+        margin-bottom: 3px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .right__paragraph {
+        max-width: 290px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .special {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        outline: none;
+    }
+
+    .special::before {
+        min-height: 49px;
+        margin-bottom: 12px;
+    }
+
+     /* WORKING */
+
+     .working {
+        margin-bottom: 60px;
+    }
+
+    .working__title {
+        margin-bottom: 19px;
+        font-size: 24px;
+    }   
+
+
+    .working__wrapper {
+        padding: 0;
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .working__subtitle {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 7px;
+    }
+
+    .working__paragraph {
+        margin-bottom: 23px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .working__right-image1 {
+        min-height: 160px;
+        margin-bottom: 17px;
+        border-radius: 0;
+        background-image: url(../img/img_midea/notepad\ 320.jpg);
+        background-position: center;
+    } 
+
+    .working__btn {
+        border-radius: 8px;
+        margin-right: 4px;
+        padding: 11.31px 44px;
+        font-size: 12px;
+    }
+
+    .working__link-btn {
+        border-radius: 8px;
+        padding: 12px 32px;
+        font-size: 12px;
+    }
+
+    /*--FRAME--*/
+
+    .faq {
+        margin-bottom: 57px;
+    }
+
+    .faq__h2 {
+        font-size: 24px;
+        margin-bottom:20px;
+    }
+
+    .faq__card {
+        border: none;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .faq__title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .faq__paragraph {
+        max-width: 265px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding: 30px 0 30px 0;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+    }   
+
+    .footer__left {
+        width: 47%;
+        margin-left: 96px;
+    }
+
+    .logo__adaptive {
+        display: none;
+    }
+
+    .logo__media {
+        display: block;
+    }
+
+    .footer__list {
+        display: none;
+    }
+
+    .footer__social {
+        display: none;
+    }
+
+    .span__media {
+        display: flex;
+    }
+
+    .footer__icon {
+        margin-right: 15.08px;
+    }
+
+    .footer__right {
+        width: 100%;
+        margin-bottom: 43px;
+    }
+
+    .form__title {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .form__input {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .footer__textarea {
+        font-size: 14px;
+        margin-bottom: 0px;
+        padding: 14px 20px;
+    }
+
+    .footer__inner {
+        gap: 12px;
+        flex-direction: column;
+    }
+
+    .form__btn {
+        margin-bottom: 0;
+        margin-right: 0px;
+        padding: 12.31px 22px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 8px;
+    }
+
+    .input__span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px; 
+    }
+}
+
+
